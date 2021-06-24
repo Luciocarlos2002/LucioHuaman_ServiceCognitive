@@ -23,6 +23,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/vista/View.xhtml</welcome-file>
+        <welcome-file>faces/vista/Face.xhtml</welcome-file>
     </welcome-file-list>
 </web-app>

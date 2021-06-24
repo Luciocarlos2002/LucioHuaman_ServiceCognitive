@@ -19,10 +19,10 @@
                 <br/>
                 <br/>
                 <p:panelGrid columns="2" id="dlg" rendered="#{controller.bt}">
+                    <f:facet name="header">
+                        <img src="#{controller.atributo.url}" width="350"/>
+                    </f:facet>
                     
-                    <img src="#{controller.atributo.url}" width="350"/>
-
-                    <p:panelGrid columns="2" id="pnlg" >
                         <p:outputLabel value="Emoción"/>
                         <p:outputLabel value="#{controller.atributo.emotion}"/>
 
@@ -37,7 +37,6 @@
 
                         <p:outputLabel value="Color de cabello"/>
                         <p:outputLabel value="#{controller.atributo.hairColor}"/>
-                    </p:panelGrid>
                 </p:panelGrid>
             </h:form>
         </center>
